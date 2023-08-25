@@ -1,0 +1,32 @@
+package br.com.bytebank.banco.teste.util;
+
+public class TesteWrapper {
+
+	public static void main(String[] args) {
+		Integer ref = Integer.valueOf("3");
+        ref++;
+        System.out.println(ref);
+
+        
+        
+        
+        
+        String diaComoTexto = "29";
+        int dia = Integer.valueOf(diaComoTexto);
+        int traducao = Integer.parseInt(diaComoTexto);
+        
+        System.out.println(dia);
+        System.out.println(traducao);
+        
+        
+        System.out.println("-----------------------");
+        
+        
+        
+        
+        
+	}
+	
+	
+
+}
