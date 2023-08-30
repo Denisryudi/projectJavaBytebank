@@ -1,0 +1,27 @@
+package br.com.bytebank.banco.test.util;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class TesteSortArrays
+{
+    public static void main(String[] args)
+    {
+        int[] numeros = new int[]{43, 15, 64, 22, 89};
+
+        Arrays.sort(numeros); //método utilitário sort
+
+        System.out.println(Arrays.toString(numeros)); //método utilitário toString
+
+        //Saida : [15, 22, 43, 64, 89]
+        
+
+
+        Collections.reverseOrder();
+        //Para embaralhar existe o método shuffle e para rotacionar tem o método rotate:
+
+        Collections.shuffle(numeros);
+        Collections.rotate(numeros, 5); //rotacionar 5 posicoesCOPIAR C
+    }
+}
